@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     // ... other server options
     allowedHosts: [
-      'portfolio-25xa.onrender.com',
+      'abdulhadi-portfolio.onrender.com',
       // You might also want to include 'localhost' for local development
       'localhost',
       '127.0.0.1'
