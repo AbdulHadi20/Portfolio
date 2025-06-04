@@ -44,7 +44,7 @@ const SkillsList = () => {
   };
 
   return (
-    <div className="text-left pt-3 md:pt-9 flex flex-col items-center">
+    <div className="pt-3 md:pt-9 flex flex-col text-center container mx-auto">
       <h3 className="text-[var(--white)] text-3xl md:text-4xl font-semibold md:mb-6">
         My Services
       </h3>
@@ -53,7 +53,7 @@ const SkillsList = () => {
           <li key={category} className="w-full">
             <div
               onClick={() => toggleItem(category)}
-              className="md:w-[400px] w-full bg-[#1414149c] rounded-2xl text-left hover:bg-opacity-80 transition-all border border-[var(--white-icon-tr)] cursor-pointer overflow-hidden"
+              className="w-full bg-[#1414149c] rounded-2xl text-left hover:bg-opacity-80 transition-all border border-[var(--white-icon-tr)] cursor-pointer overflow-hidden"
             >
               <div className="flex items-center gap-3 p-4">
                 {CategoryIcons[category]}
